@@ -142,6 +142,7 @@ button {
 .contact-me .contact-container button {
     border: 2px solid #E5E7EB;
     border-radius: 15px;
+    color: white;
 }
 
 .footer {
