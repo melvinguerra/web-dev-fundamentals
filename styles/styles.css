@@ -40,11 +40,11 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
-    
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .hero .content {
-    max-width: 700px;
+    max-width: 784px;
     
 }
 
@@ -81,14 +81,34 @@ button {
 .work-experience {
     display: flex;
     justify-content: center;
-    background-color: white;
-    back
+    padding: 5% 15%;
+    gap: 16px;
+    background-color: white;  
+    flex-direction: column;
+    align-items: center;
 }
 
 .work-experience h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 16px;
 }
 
+.work-experience .cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+}
 
+.work-experience img {
+    border: 2px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 5% 5%;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
