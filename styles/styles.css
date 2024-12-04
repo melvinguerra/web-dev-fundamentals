@@ -18,10 +18,59 @@ body {
     align-items: center;
 }
 
+.main-nav .nav-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .main-nav ul {
     list-style-type: none;
     display: flex;
     gap: 24px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+.hero .content {
+    max-width: 700px;
+    
+}
+
+.hero .profile-image {
+    justify-self: center;
+    
+    margin-right: 10%;
+}
+.hero .profile-image img{
+    border-radius: 50%;
+    
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 10px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: 1px #E5E7EB;
 }
 
 
