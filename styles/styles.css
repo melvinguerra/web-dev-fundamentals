@@ -80,7 +80,7 @@ button {
 .work-experience {
     display: flex;
     justify-content: center;
-    padding: 5% 15%;
+    padding: 5% 15% 10% 15%;
     gap: 16px;
     background-color: white;  
     flex-direction: column;
@@ -105,6 +105,49 @@ button {
 .work-experience img {
     border: 2px solid #E5E7EB;
     border-radius: 15px;
-    padding: 5% 5%;
+    padding: 10% 5%;
+}
+
+.quotes {
+    padding: 8% 20%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.quotes .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.quotes .author {
+    justify-self: flex-end;
+    font-weight: 700;
+}
+
+.contact-me {
+    padding: 5% 15%;
+}
+
+.contact-me .contact-container {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me .contact-container button {
+    border: 2px solid #E5E7EB;
+    border-radius: 15px;
+}
+
+.footer {
+    padding: 2% 15%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
