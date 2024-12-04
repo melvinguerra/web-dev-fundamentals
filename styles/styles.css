@@ -50,12 +50,11 @@ body {
 
 .hero .profile-image {
     justify-self: center;
-    
     margin-right: 10%;
+    margin: 0 auto;
 }
 .hero .profile-image img{
     border-radius: 50%;
-    
 }
 
 .hero h1 {
@@ -109,6 +108,3 @@ button {
     padding: 5% 5%;
 }
 
-.quotes {
-    background-color: #E5E7EB;
-}
